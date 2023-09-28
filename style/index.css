@@ -1,22 +1,17 @@
 body {
   margin: 2rem;
   background: rgb(126,104,104);
-background: linear-gradient(90deg, rgba(126,104,104,1) 0%, rgba(9,121,108,1) 19%, rgba(105,172,207,1) 100%);
+  background: linear-gradient(90deg, rgba(126,104,104,1) 0%, rgba(9,121,108,1) 19%, rgba(105,172,207,1) 100%);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-width: 100%;
-margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
-
-
-
 #smContainer {
-
   display: flex;
   align-items: center;
   justify-content: center;
   height: 75%;
-
 }
 
 #search {
@@ -35,18 +30,17 @@ margin: 0;
 #searchBox {
   display:flex;
   flex-direction:row;
-    width:100%;
-    max-width:500px;
-    min-width:400px;
+  width:100%;
+  max-width:500px;
+  min-width:400px;
+}
 
- }
-
-  #enterButton{
-    border-style:dotted;
-    margin:1rem  -4rem;
-    border-radius: 0.3rem;
-    display: none;
-  }
+#enterButton{
+  border-style:dotted;
+  margin:1rem  -4rem;
+  border-radius: 0.3rem;
+  display: none;
+}
 
 #menu {
   box-sizing: border-box;
@@ -64,23 +58,22 @@ margin: 0;
   border-radius: 0 0 1rem 1rem;
   background-color:white;
   box-shadow: 0 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.196);
-display: none;
-overflow: hidden;
-overflow-y:auto
- /* display: none; /* Hide the list until clicked */
+  display: none;
+  overflow: hidden;
+  overflow-y:auto
 }
 
 
 #menu::-webkit-scrollbar {
   width: 20px;
 }
+
 #menu::-webkit-scrollbar-thumb {
   background-color: rgb(176, 176, 176);
   border: 6px solid transparent;
   border-radius: 2rem;
   background-clip: padding-box;
 }
-
 
 #menu li a {
   padding: 0.5em 1em; /* Add some padding */
