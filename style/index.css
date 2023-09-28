@@ -1,5 +1,4 @@
 body {
-  margin: 2rem;
   background: rgb(126,104,104);
   background: linear-gradient(90deg, rgba(126,104,104,1) 0%, rgba(9,121,108,1) 19%, rgba(105,172,207,1) 100%);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
